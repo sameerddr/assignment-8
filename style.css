@@ -1,0 +1,140 @@
+.container {
+    text-align: center;
+    padding-top: 30px;
+    height: 7rem;
+    font-size: 70px;
+    background-color: lightseagreen;
+    color: white;
+}
+
+.container:hover {
+    background-color: wheat;
+    color: blue;
+    -webkit-box-shadow: 0 0 20px rgb(253, 17, 17);
+    transition: .5s;
+}
+
+.border {
+    position: relative;
+    /* padding: 4rem; */
+    margin-top: 2rem;
+    padding-left: 37%;
+    padding-right: 50%;
+}
+
+.border img {
+    padding: 3rem;
+    width: 20rem;
+    height: 16rem;
+}
+
+.border img:hover {
+    box-shadow: 2px;
+    -webkit-box-shadow: 0 0 20px rgb(253, 17, 17);
+    transition: .8s;
+}
+
+.variety {
+    background-color: lightseagreen;
+    border-top: 15px solid green;
+    border-bottom: 15px solid blue;
+    border-left: 15px solid crimson;
+    border-right: 15px solid magenta;
+}
+
+.border .a {
+    border: 1rem solid lightseagreen;
+    padding: 0%;
+    margin: 2rem;
+}
+
+.border .b {
+    border: 1rem dotted lightseagreen;
+    padding: 0%;
+    margin: 2rem;
+}
+
+.border .c {
+    border: 1rem dashed lightseagreen;
+    padding: 0%;
+    margin: 2rem;
+}
+
+.border .d {
+    border: 1rem groove lightseagreen;
+    padding: 0%;
+    margin: 2rem;
+}
+
+.border .e {
+    border: 1rem double lightseagreen;
+    padding: 0%;
+    margin: 2rem;
+}
+
+.border .f {
+    border: 1rem ridge lightseagreen;
+    padding: 0%;
+    margin: 2rem;
+}
+
+.border .g {
+    border: 1rem outset lightseagreen;
+    padding: 0%;
+    margin: 2rem;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+h1:hover {
+    background-color: red;
+    box-shadow: 6px;
+    -webkit-box-shadow: 0 0 20px rgb(253, 17, 17);
+    transition: .3s;
+}
+
+p {
+    color: white;
+    font-size: 30px;
+}
+
+p:hover {
+    background-color: yellow;
+    color: red;
+    -webkit-box-shadow: 0 0 40px rgb(253, 17, 17);
+    transition: .3s;
+}
+
+p::first-line {
+    color: black;
+}
+
+footer {
+    margin-top: 4rem;
+    background-color: red;
+    text-align: center;
+    padding-top: 20px;
+    height: 3rem;
+    font-size: 30px;
+    margin-bottom: 0%;
+}
+
+.media a {
+    padding-top: 6rem;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+}
+
+.media a:hover {
+    color: blue;
+    border-bottom: 2px solid blue;
+}
+
+.media span {
+    margin: 6rem;
+}
